@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>easysoa-demo-proxy</name>
-	<comment></comment>
+	<comment>A Frascati SCA Proxy Demo</comment>
 	<projects>
 	</projects>
 	<natures>
