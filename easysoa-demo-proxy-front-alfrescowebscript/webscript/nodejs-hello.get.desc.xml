@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>Node.js Hello test</shortname>
+  <description>Node.js Hello test</description>
+  <family>user-dashlet</family>
+  <authentication>none</authentication> 
+  <url>/nodejshello</url>
+</webscript>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmlns:frascati="http://frascati.ow2.org/xmlns/sca/1.1" xmlns:hw="http://fuse-intent" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="fuse">
+  <sca:service name="intent" promote="fuseIntentHandler/fuseIntentService">
+    <sca:interface.java interface="org.ow2.frascati.tinfi.control.intent.IntentHandler"/>
+  </sca:service>
+  <sca:component name="fuseIntentHandler">
+    <sca:implementation.java class="com.openwide.sca.intents.FuseIntent"/>
+    <sca:service name="fuseIntentService">
+      <sca:interface.java interface="org.ow2.frascati.tinfi.control.intent.IntentHandler"/>
+    </sca:service>
+    <sca:property name="maxRequestsNumber">5</sca:property>
+    <sca:property name="maxTimePeriod">120000</sca:property>
+    <sca:property name="trippedFuse">false</sca:property>
+    <sca:reference name="eventDispatcher">
+      <sca:interface.java interface="com.openwide.sca.intents.util.EventDispatcherMessage"/>
+      <frascati:binding.rest name="nodejsEventDispatcherService" uri="http://localhost:7002/"/>
+    </sca:reference>
+  </sca:component>
+</sca:composite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><sca:composite xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:frascati="http://frascati.ow2.org/xmlns/sca/1.1" name="scaProxyTest" targetNamespace="http://eclipse.org/scaProxyTest/resources/scaProxyTest">
+  <sca:component name="Proxy" requires="frascati-debug log">
+    <sca:implementation.java class="com.openwide.sca.ProxyImpl"/>
+    <sca:service name="proxyService" requires="fuse">
+      <sca:interface.java interface="com.openwide.sca.Proxy"/>
+    </sca:service>
+    <sca:reference name="nodeJSServer">
+      <sca:interface.java interface="com.openwide.sca.NodeJSServer"/>
+      <frascati:binding.rest name="nodejsServerRestService" uri="http://localhost:7001/"/>
+    </sca:reference>
+  </sca:component>
+  <sca:service name="redirectRequests" promote="Proxy/proxyService">
+    <sca:interface.java interface="com.openwide.sca.Proxy"/>
+    <frascati:binding.rest uri="http://localhost:7000/"/>
+  </sca:service>
+</sca:composite>

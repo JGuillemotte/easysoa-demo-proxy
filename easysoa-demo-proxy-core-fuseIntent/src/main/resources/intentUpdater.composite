@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmlns:frascati="http://frascati.ow2.org/xmlns/sca/1.1" xmlns:hw="http://fuse-updater" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="fuseUpdater">
+  <sca:component name="fuseUpdater">
+    <sca:implementation.java class="com.openwide.sca.intents.util.IntentUpdaterImpl"/>
+    <sca:service name="fuseIntentUpdater">
+      <sca:interface.java interface="com.openwide.sca.intents.util.IntentUpdater"/>
+    </sca:service>
+  </sca:component>
+  <sca:service name=updateProperty promote="fuseUpdater/fuseIntentUpdater">
+    <sca:interface.java interface="com.openwide.sca.intents.util.IntentUpdater"/>
+    <frascati:binding.rest uri="http://localhost:7000/updateProperty"/>
+  </sca:service>
+</sca:composite>

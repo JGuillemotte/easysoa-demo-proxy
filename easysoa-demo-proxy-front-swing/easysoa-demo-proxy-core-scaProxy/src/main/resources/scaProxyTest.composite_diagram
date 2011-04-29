@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frascati="http://frascati.ow2.org/xmlns/sca/1.1" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmi:id="_NudxMFX5EeCPLK9iZ8thjw" type="Sca" name="scaProxyTest.composite_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_Nu6dIFX5EeCPLK9iZ8thjw" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_Nu7EMFX5EeCPLK9iZ8thjw" type="5008"/>
+    <children xmi:type="notation:Node" xmi:id="_Nu7rQFX5EeCPLK9iZ8thjw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_PdCL0FX5EeCPLK9iZ8thjw" type="3001">
+        <children xmi:type="notation:Node" xmi:id="_PdDZ8FX5EeCPLK9iZ8thjw" type="5001"/>
+        <children xmi:type="notation:Node" xmi:id="_PdDZ8VX5EeCPLK9iZ8thjw" type="7005">
+          <children xmi:type="notation:Node" xmi:id="_QaggsFX5EeCPLK9iZ8thjw" type="3002">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_QaggsVX5EeCPLK9iZ8thjw" fontName="Ubuntu"/>
+            <element xmi:type="sca:JavaInterface" href="scaProxyTest.composite#//@composite/@service.0/@interfaceGroup.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QaggslX5EeCPLK9iZ8thjw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_PdDZ8lX5EeCPLK9iZ8thjw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_PdDZ81X5EeCPLK9iZ8thjw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_PdEBAFX5EeCPLK9iZ8thjw" type="7006">
+          <children xmi:type="notation:Node" xmi:id="_Qw8qwFX5EeCPLK9iZ8thjw" type="org.eclipse.stp.sca.diagram.frascati.RestBinding">
+            <styles xmi:type="notation:DiagramStyle" xmi:id="_Qw8qwVX5EeCPLK9iZ8thjw"/>
+            <element xmi:type="frascati:RestBinding" href="scaProxyTest.composite#//@composite/@service.0/@bindingGroup.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qw8qwlX5EeCPLK9iZ8thjw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_PdEBAVX5EeCPLK9iZ8thjw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_PdEBAlX5EeCPLK9iZ8thjw"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_PdCL0VX5EeCPLK9iZ8thjw" fontName="Ubuntu"/>
+        <element xmi:type="sca:Service" href="scaProxyTest.composite#//@composite/@service.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PdCL0lX5EeCPLK9iZ8thjw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Nu7rQVX5EeCPLK9iZ8thjw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Nu7rQlX5EeCPLK9iZ8thjw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Nu7rQ1X5EeCPLK9iZ8thjw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Nu7rRFX5EeCPLK9iZ8thjw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Nu8SUFX5EeCPLK9iZ8thjw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Nu8SUVX5EeCPLK9iZ8thjw" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Nu8SUlX5EeCPLK9iZ8thjw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Nu8SU1X5EeCPLK9iZ8thjw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Nu85YFX5EeCPLK9iZ8thjw" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_RmRJMFX5EeCPLK9iZ8thjw" type="3012">
+        <children xmi:type="notation:Node" xmi:id="_RmRwQFX5EeCPLK9iZ8thjw" type="5007"/>
+        <children xmi:type="notation:Node" xmi:id="_RmSXUFX5EeCPLK9iZ8thjw" type="7009">
+          <children xmi:type="notation:Node" xmi:id="_ThA-oFX5EeCPLK9iZ8thjw" type="3013">
+            <children xmi:type="notation:Node" xmi:id="_ThBlsFX5EeCPLK9iZ8thjw" type="5004"/>
+            <children xmi:type="notation:Node" xmi:id="_ThCMwFX5EeCPLK9iZ8thjw" type="7013">
+              <children xmi:type="notation:Node" xmi:id="_U_YaEFX5EeCPLK9iZ8thjw" type="3014">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_U_YaEVX5EeCPLK9iZ8thjw" fontName="Ubuntu"/>
+                <element xmi:type="sca:JavaInterface" href="scaProxyTest.composite#//@composite/@component.0/@service.0/@interfaceGroup.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U_YaElX5EeCPLK9iZ8thjw"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ThCMwVX5EeCPLK9iZ8thjw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ThCMwlX5EeCPLK9iZ8thjw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_ThCz0FX5EeCPLK9iZ8thjw" type="7014">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_ThCz0VX5EeCPLK9iZ8thjw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_ThCz0lX5EeCPLK9iZ8thjw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ThA-oVX5EeCPLK9iZ8thjw" fontName="Ubuntu"/>
+            <element xmi:type="sca:ComponentService" href="scaProxyTest.composite#Proxy/proxyService"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ThA-olX5EeCPLK9iZ8thjw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RmSXUVX5EeCPLK9iZ8thjw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RmSXUlX5EeCPLK9iZ8thjw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_RmS-YFX5EeCPLK9iZ8thjw" type="7010">
+          <children xmi:type="notation:Node" xmi:id="_VhBukFX5EeCPLK9iZ8thjw" type="3024">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_VhBukVX5EeCPLK9iZ8thjw" fontName="Ubuntu"/>
+            <element xmi:type="sca:JavaImplementation" href="scaProxyTest.composite#//@composite/@component.0/@implementationGroup.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VhBuklX5EeCPLK9iZ8thjw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RmS-YVX5EeCPLK9iZ8thjw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RmS-YlX5EeCPLK9iZ8thjw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_RmUMgFX5EeCPLK9iZ8thjw" type="7011">
+          <children xmi:type="notation:Node" xmi:id="_bMiJwFYCEeCPLK9iZ8thjw" type="3018">
+            <children xmi:type="notation:Node" xmi:id="_bMiw0FYCEeCPLK9iZ8thjw" type="5005"/>
+            <children xmi:type="notation:Node" xmi:id="_bMiw0VYCEeCPLK9iZ8thjw" type="7015">
+              <children xmi:type="notation:Node" xmi:id="_blMr8FYDEeCPLK9iZ8thjw" type="3019">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_blMr8VYDEeCPLK9iZ8thjw" fontName="Ubuntu"/>
+                <element xmi:type="sca:JavaInterface" href="scaProxyTest.composite#//@composite/@component.0/@reference.0/@interfaceGroup.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_blMr8lYDEeCPLK9iZ8thjw"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_bMiw0lYCEeCPLK9iZ8thjw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_bMiw01YCEeCPLK9iZ8thjw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_bMjX4FYCEeCPLK9iZ8thjw" type="7016">
+              <children xmi:type="notation:Node" xmi:id="_cUIrAFYCEeCPLK9iZ8thjw" type="org.eclipse.stp.sca.diagram.frascati.RestBinding">
+                <styles xmi:type="notation:DiagramStyle" xmi:id="_cUIrAVYCEeCPLK9iZ8thjw"/>
+                <element xmi:type="frascati:RestBinding" href="scaProxyTest.composite#//@composite/@component.0/@reference.0/@bindingGroup.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cUIrAlYCEeCPLK9iZ8thjw"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_bMjX4VYCEeCPLK9iZ8thjw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_bMjX4lYCEeCPLK9iZ8thjw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_bMiJwVYCEeCPLK9iZ8thjw" fontName="Ubuntu"/>
+            <element xmi:type="sca:ComponentReference" href="scaProxyTest.composite#Proxy/nodeJSServer"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bMiJwlYCEeCPLK9iZ8thjw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RmUMgVX5EeCPLK9iZ8thjw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RmUMglX5EeCPLK9iZ8thjw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_RmUzkFX5EeCPLK9iZ8thjw" type="7012">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RmUzkVX5EeCPLK9iZ8thjw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RmUzklX5EeCPLK9iZ8thjw"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_RmRJMVX5EeCPLK9iZ8thjw" fontName="Ubuntu"/>
+        <element xmi:type="sca:Component" href="scaProxyTest.composite#//@composite/@component.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RmRJMlX5EeCPLK9iZ8thjw" x="120" y="37"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Nu85YVX5EeCPLK9iZ8thjw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Nu85YlX5EeCPLK9iZ8thjw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Nu6dIVX5EeCPLK9iZ8thjw" fontName="Ubuntu"/>
+    <element xmi:type="sca:Composite" href="scaProxyTest.composite#//@composite"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nu6dIlX5EeCPLK9iZ8thjw" width="486" height="286"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_NudxMVX5EeCPLK9iZ8thjw"/>
+  <element xmi:type="sca:DocumentRoot" href="scaProxyTest.composite#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_W-B4EFX5EeCPLK9iZ8thjw" type="4007" source="_PdCL0FX5EeCPLK9iZ8thjw" target="_ThA-oFX5EeCPLK9iZ8thjw">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_W-B4EVX5EeCPLK9iZ8thjw" routing="Rectilinear" smoothness="Normal"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_W-B4ElX5EeCPLK9iZ8thjw" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W-B4E1X5EeCPLK9iZ8thjw" points="[0, 0, -175, -80]$[171, 60, -4, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W-EUUFX5EeCPLK9iZ8thjw" id="(0.875,1.0)"/>
+  </edges>
+</notation:Diagram>
